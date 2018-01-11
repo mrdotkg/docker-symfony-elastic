@@ -1,3 +1,4 @@
+# Reference https://pilsniak.com/docker-symfony/
 FROM php:latest
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 RUN apt-get update && apt-get install -y git libpng-dev

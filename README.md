@@ -1,3 +1,10 @@
+Clone the project
+
+```
+git clone https://github.com/measdot/docker-symfony-logtoelk.git
+```
+
+
 Run the following commands in same order and then check https://0.0.0.0:8080
 
 ```
