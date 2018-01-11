@@ -9,11 +9,11 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
     composer create-project symfony/framework-standard-edition /appcode/ && \
     chmod +x /appcode/bin/console
 
-# expose 8080 to access portal
+# expose 8080 to access brand new symfony welcome page
 EXPOSE 8080
 
 # Run the project
 CMD /appcode/bin/console server:run 0.0.0.0:8080
 
-# vaolume for code mount
+# volume for code mount
 VOLUME /appcode/
