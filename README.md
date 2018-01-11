@@ -1,3 +1,5 @@
+# Docker Symfony LOGTOELK application
+
 Clone the project
 
 ```
